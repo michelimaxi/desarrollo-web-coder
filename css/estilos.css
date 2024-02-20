@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    text-align:center ;
+    background-color: #b4423c;
+}
+
+main{
+    background-color: #1B5047;
+}
+
+
+ul{
+    list-style: none;
+    display:flex;
+    text-align:justify;
+}
+
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black; 
+    font-size: larger;
+    ;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+
+footer{
+    background-color: #2f4f4f;
+}
+
+.footer{
+    display: flex;
+}
+
+.titulos{
+    text-align: center;
+}
+
+.indie{
+    display:inline-block ;
+    
+}
+
+
+.informacion{
+    text-align: justify ;
+}
+
+ 
+.contenedor{
+    display:flex;
+    tab-size: 50%;
+}
+
+
+
+.escuchado{
+    display: flex;
+}
+
+.escuchado-p{
+    width: 50%;
+}
+
+.ultimas-reseñas {
+    display: flex;
+    justify-items: right;
+}
+
+.novedades{
+    display: flex;
+}
+
+article p{
+    width: 50%;
+}
+
+.tabla{
+    width: 70%;
+}
+
+
+.oswald-h1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.josefin-sans-p {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
