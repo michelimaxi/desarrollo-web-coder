@@ -1,14 +1,40 @@
 *{
-    margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px;
+    box-sizing:border-box;
+    border: 0px 0px 0px;
 }
 
-
+html{
+    padding: 0px 0px 0px;
+    margin: 0px 0px 0px;
+}
+body{
+    margin-right: 0px;
+    padding-right: 0px;
+    border: 0px 0px 0px;
+}
 
 header{
     text-align:center ;
     background-color: #b4423c;
+    margin: 0px 0px 0px;
+}
+
+nav{
+    padding: 0px 0px;
+}
+
+.d-block{
+    max-height: 100vh;
+    width: 100%;
+}
+
+
+
+
+hr{
+    margin: 0px 0px;
 }
 
 main{
@@ -19,16 +45,22 @@ main{
 ul{
     list-style: none;
     display:flex;
-    text-align:justify;
+    text-align:center;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px;
+    border: none;
+}
+
+.col-3{
+    padding: 0px 0px 0px;
+    max-width: 350px;
 }
 
 
 a{
     text-decoration: none;
     text-align: center;
-    color: black; 
-    font-size: larger;
-    ;
+    color: black;
 }
 
 p{
@@ -59,7 +91,6 @@ footer{
     text-align: justify ;
 }
 
- 
 .contenedor{
     display:flex;
     tab-size: 50%;
@@ -75,10 +106,7 @@ footer{
     width: 50%;
 }
 
-.ultimas-reseñas {
-    display: flex;
-    justify-items: right;
-}
+
 
 .novedades{
     display: flex;
