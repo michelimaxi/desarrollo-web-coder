@@ -17,12 +17,17 @@ body{
 
 header{
     text-align:center ;
-    background-color: #b4423c;
     margin: 0px 0px 0px;
 }
 
+h1{
+    background-color: #276e90;
+}
+
+
 nav{
     padding: 0px 0px;
+    background-color: #cecfc9;
 }
 
 .d-block{
@@ -38,7 +43,7 @@ hr{
 }
 
 main{
-    background-color: #1B5047;
+    background-color: #bfd8d2;
 }
 
 
@@ -65,17 +70,17 @@ a{
 
 p{
     text-align: center;
-    color: white;
 }
 
-.container-fluid{
-    display: flex;
+.img-index{
+    width: 154px;
+    height: 154px;
 }
 
 
 
 footer{
-    background-color: #2f4f4f;
+    background-color: #cecfc9;
 }
 
 .footer{
@@ -102,7 +107,6 @@ footer{
 }
 
 
-
 .escuchado{
     display: flex;
     align-items: center;
@@ -111,8 +115,6 @@ footer{
 .escuchado-p{
     width: 50%;
 }
-
-
 
 .novedades{
     display: flex;
@@ -125,6 +127,31 @@ article p{
 .tabla{
     width: 70%;
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 960px){
+    .col{
+        display: flexbox;
+    }
+    .ultimas-reseñas{
+        justify-items: right;
+        padding: 0px 0px 0px;
+        margin: 0px 0px 0px;
+    }
+    .escuchado{
+        padding: 0px 0px 0px;
+        margin: 0px 0px 0px;
+        padding-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 .oswald-h1 {
