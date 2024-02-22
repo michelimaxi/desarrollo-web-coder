@@ -124,9 +124,15 @@ article p{
     width: 50%;
 }
 
-.tabla{
-    width: 70%;
+
+
+@media only screen and (max-width:767px){
+    
 }
+
+
+
+
 
 
 @media only screen and (min-width: 768px) and (max-width: 960px){
@@ -142,6 +148,14 @@ article p{
         padding: 0px 0px 0px;
         margin: 0px 0px 0px;
         padding-left: 20px;
+    }
+    .cavetown{
+        width: 75%;
+        height: 70vh;
+    }
+    .p-indie{
+        align-content: normal;
+        text-align: justify;
     }
 }
 
