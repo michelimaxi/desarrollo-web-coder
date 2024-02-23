@@ -127,12 +127,13 @@ article p{
 
 
 @media only screen and (max-width:767px){
-    
+    .cavetown{
+        display: none !important;
+    }
+    .p-indie{
+        text-align: center;
+    }
 }
-
-
-
-
 
 
 @media only screen and (min-width: 768px) and (max-width: 960px){
@@ -150,21 +151,14 @@ article p{
         padding-left: 20px;
     }
     .cavetown{
-        width: 75%;
+        width: 80%;
         height: 70vh;
     }
     .p-indie{
         align-content: normal;
-        text-align: justify;
-    }
+        text-align: center;
+
 }
-
-
-
-
-
-
-
 
 
 
@@ -182,6 +176,3 @@ article p{
   font-weight: 400;
   font-style: normal;
 }
-
-
-
