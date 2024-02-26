@@ -121,7 +121,10 @@ article p{
     width: 50%;
 }
 
-
+.redes{
+    display: flex;
+    align-items: center;
+}
 
 @media only screen and (max-width:767px){
     .cavetown{
@@ -136,7 +139,7 @@ article p{
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 960px){
+@media only screen and (min-width: 768px) and (max-width: 991px){
     .col{
         display: flexbox;
     }
@@ -152,11 +155,12 @@ article p{
     }
     .cavetown{
         width: 80%;
-        height: 70vh;
+        height: 70%;
     }
     .p-indie{
         align-content: normal;
         text-align: center;
+    }
 
 }
 
@@ -167,21 +171,27 @@ article p{
     #ultimas.col{
         flex-direction: column;
     }
+    .cavetown{
+        height: 100%;
+        width: 70%;
+    }
+    .p-indie{
+        align-content: normal;
+        text-align: center;
+    }
 }
 
 
 
-.oswald-h1 {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
 
-
-.josefin-sans-p {
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
+  .josefin-sans-p{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
