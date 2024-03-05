@@ -1,0 +1,28 @@
+*{
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px;
+    box-sizing:border-box;
+    border: 0px 0px 0px;
+}
+
+body{
+    margin-right: 0px;
+    padding-right: 0px;
+    border: 0px 0px 0px;
+    
+    .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    }
+
+    .josefin-sans-p{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    }
+    main{
+        background-color: #bfd8d2;
+    }
+}

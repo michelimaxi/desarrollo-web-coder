@@ -1,197 +1,154 @@
-*{
-    margin: 0px 0px 0px;
-    padding: 0px 0px 0px;
-    box-sizing:border-box;
-    border: 0px 0px 0px;
+@charset "UTF-8";
+p {
+  text-align: center;
 }
 
-html{
-    padding: 0px 0px 0px;
-    margin: 0px 0px 0px;
-}
-body{
-    margin-right: 0px;
-    padding-right: 0px;
-    border: 0px 0px 0px;
+.redes {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
-header{
-    text-align:center ;
-    margin: 0px 0px 0px;
+footer {
+  background-color: #cecfc9;
+  display: flex;
 }
 
-h1{
-    background-color: #276e90;
+header {
+  text-align: center;
+  margin: 0px 0px 0px;
+}
+header h1 {
+  background-color: #276e90;
+  text-decoration: none;
+  color: black;
+}
+header h1 a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+header nav {
+  padding: 0px 0px;
+  background-color: #cecfc9;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin: 0px 0px 0px;
+  padding: 0px 0px 0px;
+  border: none;
+}
+header nav .col-3 {
+  padding: 0px 0px 0px;
+  max-width: 350px;
+}
+header nav a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
 }
 
-
-nav{
-    padding: 0px 0px;
-    background-color: #cecfc9;
+* {
+  margin: 0px 0px 0px;
+  padding: 0px 0px 0px;
+  box-sizing: border-box;
+  border: 0px 0px 0px;
 }
 
-.d-block{
-    height: 100vh;
-    width: 100%;
+body {
+  margin-right: 0px;
+  padding-right: 0px;
+  border: 0px 0px 0px;
+}
+body .bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+body .josefin-sans-p {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body main {
+  background-color: #bfd8d2;
 }
 
-
-
-
-hr{
-    margin: 0px 0px;
+.d-block {
+  height: 100vh;
+  width: 100%;
 }
 
-main{
-    background-color: #bfd8d2;
+.img-index {
+  width: 154px;
+  height: 154px;
 }
-
-
-ul{
-    list-style: none;
-    display:flex;
-    text-align:center;
-    margin: 0px 0px 0px;
-    padding: 0px 0px 0px;
-    border: none;
-}
-
-.col-3{
-    padding: 0px 0px 0px;
-    max-width: 350px;
-}
-
-
-a{
-    text-decoration: none;
-    text-align: center;
-    color: black;
-}
-
-p{
-    text-align: center;
-}
-
-.img-index{
-    width: 154px;
-    height: 154px;
-}
-
-
-
-footer{
-    background-color: #cecfc9;
-}
-
-.footer{
-    display: flex;
-}
-
-.titulos{
-    text-align: center;
-}
-
-.indie{
-    display:inline-block ;
-    
-}
-
-
-.informacion{
-    text-align: justify ;
-}
-
-
-
-
-.escuchado{
-    display: flex;
-    align-items: center;
-}
-
-.escuchado-p{
-    width: 50%;
-}
-
-.novedades{
-    display: flex;
-}
-
-article p{
-    width: 50%;
-}
-
-.redes{
-    display: flex;
-    align-items: center;
-}
-
-@media only screen and (max-width:767px){
-    .cavetown{
-        display: none !important;
-    }
-    .p-indie{
-        text-align: center;
-    }
-    .d-block{
-        height: 50vh;
-    }
-}
-
-
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    .col{
-        display: flexbox;
-    }
-    .ultimas-reseñas{
-        justify-items: right;
-        padding: 0px 0px 0px;
-        margin: 0px 0px 0px;
-    }
-    .escuchado{
-        padding: 0px 0px 0px;
-        margin: 0px 0px 0px;
-        padding-left: 20px;
-    }
-    .cavetown{
-        width: 80%;
-        height: 70%;
-    }
-    .p-indie{
-        align-content: normal;
-        text-align: center;
-    }
-
-}
-
-@media only screen and (min-width:992px){
-    .contenedor-index{
-        display: flexbox;
-    }
-    #ultimas.col{
-        flex-direction: column;
-    }
-    .cavetown{
-        height: 100%;
-        width: 70%;
-    }
-    .p-indie{
-        align-content: normal;
-        text-align: center;
-    }
-}
-
-
 
 .bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 
-  .josefin-sans-p{
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+.josefin-sans-p {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 767px) {
+  .cavetown {
+    display: none !important;
   }
+  .p-indie {
+    text-align: center;
+  }
+  .d-block {
+    height: 50vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .col {
+    display: flexbox;
+  }
+  .ultimas-reseñas {
+    justify-items: right;
+    padding: 0px 0px 0px;
+    margin: 0px 0px 0px;
+  }
+  .escuchado {
+    padding: 0px 0px 0px;
+    margin: 0px 0px 0px;
+    padding-left: 20px;
+  }
+  .cavetown {
+    width: 80%;
+    height: 70%;
+  }
+  .p-indie {
+    align-content: normal;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .contenedor-index {
+    display: flexbox;
+  }
+  #ultimas.col {
+    flex-direction: column;
+  }
+  .cavetown {
+    height: 100%;
+    width: 70%;
+  }
+  .p-indie {
+    align-content: normal;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

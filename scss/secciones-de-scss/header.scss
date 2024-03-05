@@ -1,0 +1,35 @@
+header{
+    text-align:center ;
+    margin: 0px 0px 0px;
+    h1{
+        background-color: #276e90;
+        text-decoration: none;
+        color: black;
+        a{
+            text-decoration: none;
+            text-align: center;
+            color: black;
+        }
+    }
+    nav{
+        padding: 0px 0px;
+        background-color: #cecfc9;
+        ul{
+            list-style: none;
+            display:flex;
+            text-align:center;
+            margin: 0px 0px 0px;
+            padding: 0px 0px 0px;
+            border: none;
+        }
+        .col-3{
+            padding: 0px 0px 0px;
+            max-width: 350px;
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+            color: black;
+        }
+    }
+}
