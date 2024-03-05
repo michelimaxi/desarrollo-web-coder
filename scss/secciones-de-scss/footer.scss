@@ -1,5 +1,17 @@
 footer{
     background-color: #cecfc9;
-
     display: flex;
+    .informacion{
+        text-align: justify ;
+    }
+    .redes{
+        display: flex;
+        align-items: center;
+        
+        a{
+            text-decoration: none;
+            text-align: center;
+            color: black;
+        }
+    }
 }

@@ -13,6 +13,18 @@ footer {
   background-color: #cecfc9;
   display: flex;
 }
+footer .informacion {
+  text-align: justify;
+}
+footer .redes {
+  display: flex;
+  align-items: center;
+}
+footer .redes a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
 
 header {
   text-align: center;
@@ -85,6 +97,26 @@ body main {
 .img-index {
   width: 154px;
   height: 154px;
+}
+
+.escuchado {
+  display: flex;
+  align-items: center;
+}
+.escuchado .escuchado-p {
+  width: 50%;
+}
+
+.titulos {
+  text-align: center;
+}
+
+.indie {
+  display: inline-block;
+}
+
+.titulos {
+  text-align: center;
 }
 
 .bebas-neue-regular {
