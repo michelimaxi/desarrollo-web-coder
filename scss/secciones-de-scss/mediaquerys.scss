@@ -8,6 +8,12 @@
     .d-block{
         height: 50vh;
     }
+    .mychemical{
+        display: none !important;
+    }
+    .noticias-img{
+        display: none !important
+    }
 }
 
 
@@ -33,6 +39,10 @@
         align-content: normal;
         text-align: center;
     }
+    .mychemical{
+        width: 100%;
+        height: 70%;
+    }
 
 }
 
@@ -50,5 +60,9 @@
     .p-indie{
         align-content: normal;
         text-align: center;
+    }
+    .mychemical{
+        width: 100%;
+        height: 80%;
     }
 }
