@@ -2,3 +2,17 @@
     display: flexbox;
     flex-direction: column-reverse;
 }
+.decoracion{
+    width: 100%;
+    height: 80%;
+}
+.rese{
+    justify-content: center;
+    text-align: justify;
+    h2{
+        text-align:left;
+    }
+    img{
+        justify-items: center;
+    }
+}

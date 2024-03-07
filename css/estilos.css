@@ -135,6 +135,22 @@ body main {
   flex-direction: column-reverse;
 }
 
+.decoracion {
+  width: 100%;
+  height: 80%;
+}
+
+.rese {
+  justify-content: center;
+  text-align: justify;
+}
+.rese h2 {
+  text-align: left;
+}
+.rese img {
+  justify-items: center;
+}
+
 .titulos {
   text-align: center;
 }
@@ -175,6 +191,9 @@ body main {
     display: none !important;
   }
   .noticias-img {
+    display: none !important;
+  }
+  .decoracion {
     display: none !important;
   }
 }
