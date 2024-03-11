@@ -2,3 +2,8 @@
 p{
     text-align: center;
 }
+.scale:hover{
+    transform: scale(102%);
+    box-shadow: 1px 10px 3px;
+    transition-duration: .5s;
+}

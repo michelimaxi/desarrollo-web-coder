@@ -1,35 +1,56 @@
-header{
-    text-align:center ;
+header {
+    text-align: center;
     margin: 0px 0px 0px;
-    h1{
-        background-color: #276e90;
+
+    h1 {
+        background-color: map-get($map: $colores, $key:resaltar );
         text-decoration: none;
-        color: black;
-        a{
+        color: map-get($map: $colores, $key:letra );
+
+        a {
             text-decoration: none;
             text-align: center;
-            color: black;
+            color: map-get($map: $colores, $key:letra );
         }
     }
-    nav{
+
+    nav {
         padding: 0px 0px;
-        background-color: #cecfc9;
-        ul{
+
+
+        ul {
             list-style: none;
-            display:flex;
-            text-align:center;
+            display: flex;
+            text-align: center;
             margin: 0px 0px 0px;
             padding: 0px 0px 0px;
             border: none;
         }
-        .col-3{
+
+        .col-3 {
             padding: 0px 0px 0px;
             max-width: 350px;
         }
-        a{
+            .tr-link {
+                width: 100%;
+                border: none;
+                font-size: 1rem;
+                background-image: linear-gradient(to right,map-get($map: $colores, $key:otros ) 50%, map-get($map: $colores, $key:animacion ) 50%);
+                background-size: 200%;
+                background-repeat: no-repeat;
+                background-position: left;
+                transition: background-position .3s ease;
+            }
+
+            .tr-link:hover {
+                background-position: right;
+            }
+        
+
+        a {
             text-decoration: none;
             text-align: center;
-            color: black;
+            color:map-get($map: $colores, $key:letra );
         }
     }
 }

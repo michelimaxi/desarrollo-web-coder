@@ -3,6 +3,12 @@ p {
   text-align: center;
 }
 
+.scale:hover {
+  transform: scale(102%);
+  box-shadow: 1px 10px 3px;
+  transition-duration: 0.5s;
+}
+
 footer {
   background-color: #cecfc9;
 }
@@ -36,7 +42,6 @@ header h1 a {
 }
 header nav {
   padding: 0px 0px;
-  background-color: #cecfc9;
 }
 header nav ul {
   list-style: none;
@@ -49,6 +54,19 @@ header nav ul {
 header nav .col-3 {
   padding: 0px 0px 0px;
   max-width: 350px;
+}
+header nav .tr-link {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  background-image: linear-gradient(to right, #cecfc9 50%, rgb(12, 175, 91) 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: background-position 0.3s ease;
+}
+header nav .tr-link:hover {
+  background-position: right;
 }
 header nav a {
   text-decoration: none;
@@ -76,7 +94,7 @@ body .bebas-neue-regular {
 body .josefin-sans-p {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 100;
   font-style: normal;
 }
 body main {
@@ -162,19 +180,6 @@ body main {
 
 .introduccion {
   align-items: center;
-}
-
-.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.josefin-sans-p {
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
 }
 
 @media only screen and (max-width: 767px) {

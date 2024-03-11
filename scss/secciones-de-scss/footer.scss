@@ -1,5 +1,5 @@
 footer{
-    background-color: #cecfc9;
+    background-color: map-get($map: $colores, $key:otros );
     .informacion{
         text-align: justify ;
     }
