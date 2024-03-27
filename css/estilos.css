@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 p {
   text-align: center;
 }
@@ -12,14 +13,17 @@ p {
 footer {
   background-color: #cecfc9;
 }
+
 footer .informacion {
   text-align: justify;
 }
+
 footer .redes {
   align-items: baseline;
   flex-direction: column;
   list-style: none;
 }
+
 footer .redes a {
   text-decoration: none;
   text-align: center;
@@ -30,19 +34,23 @@ header {
   text-align: center;
   margin: 0px 0px 0px;
 }
+
 header h1 {
   background-color: #276e90;
   text-decoration: none;
   color: black;
 }
+
 header h1 a {
   text-decoration: none;
   text-align: center;
   color: black;
 }
+
 header nav {
   padding: 0px 0px;
 }
+
 header nav ul {
   list-style: none;
   display: flex;
@@ -51,10 +59,12 @@ header nav ul {
   padding: 0px 0px 0px;
   border: none;
 }
+
 header nav .col-3 {
   padding: 0px 0px 0px;
   max-width: 350px;
 }
+
 header nav .tr-link {
   width: 100%;
   border: none;
@@ -65,9 +75,11 @@ header nav .tr-link {
   background-position: left;
   transition: background-position 0.3s ease;
 }
+
 header nav .tr-link:hover {
   background-position: right;
 }
+
 header nav a {
   text-decoration: none;
   text-align: center;
@@ -86,17 +98,20 @@ body {
   padding-right: 0px;
   border: 0px 0px 0px;
 }
+
 body .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
+
 body .josefin-sans-p {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
 }
+
 body main {
   background-color: #bfd8d2;
 }
@@ -115,6 +130,7 @@ body main {
   display: flex;
   align-items: center;
 }
+
 .escuchado .escuchado-p {
   width: 50%;
 }
@@ -133,17 +149,21 @@ body main {
   border-style: groove;
   border-color: rgb(78, 78, 78);
 }
+
 .noticias p {
   align-content: center;
   display: inline;
 }
+
 .noticias h2 {
   justify-content: space-around;
 }
+
 .noticias .noticias-img {
   width: 100%;
   height: 100%;
 }
+
 .noticias div-8 {
   justify-content: center;
 }
@@ -162,9 +182,11 @@ body main {
   justify-content: center;
   text-align: justify;
 }
+
 .rese h2 {
   text-align: left;
 }
+
 .rese img {
   justify-items: center;
 }
@@ -186,64 +208,80 @@ body main {
   .cavetown {
     display: none !important;
   }
+
   .p-indie {
     text-align: center;
   }
+
   .d-block {
     height: 50vh;
   }
+
   .mychemical {
     display: none !important;
   }
+
   .noticias-img {
     display: none !important;
   }
+
   .decoracion {
     display: none !important;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .col {
     display: flexbox;
   }
+
   .ultimas-reseñas {
     justify-items: right;
     padding: 0px 0px 0px;
     margin: 0px 0px 0px;
   }
+
   .escuchado {
     padding: 0px 0px 0px;
     margin: 0px 0px 0px;
     padding-left: 20px;
   }
+
   .cavetown {
     width: 80%;
     height: 70%;
   }
+
   .p-indie {
     align-content: normal;
     text-align: center;
   }
+
   .mychemical {
     width: 100%;
     height: 70%;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .contenedor-index {
     display: flexbox;
   }
+
   #ultimas.col {
     flex-direction: column;
   }
+
   .cavetown {
     height: 100%;
     width: 70%;
   }
+
   .p-indie {
     align-content: normal;
     text-align: center;
   }
+
   .mychemical {
     width: 100%;
     height: 80%;
